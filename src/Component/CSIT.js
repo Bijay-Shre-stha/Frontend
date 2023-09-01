@@ -1,4 +1,5 @@
 import React from 'react'
+import './CSIT.css'
 
 const CSIT = () => {
     return (
