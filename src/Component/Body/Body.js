@@ -29,14 +29,13 @@ const Body = (props) => {
                     </p>
                 </div>
             </div>
-        <hr className={`line 
-            ${isDarkMode ? 'dark-line' : 'light-line'}`} 
-        />
+        <hr className={`line `} />
+
+        <h3 className={ `academic text-${isDarkMode ? 'light' : 'dark'} bg-${isDarkMode ? '#1b2735' : 'light'}`}>Academic</h3>
             <Academic />
 
-            <hr className={`line 
-            ${isDarkMode ? 'dark-line' : 'light-line'}`} 
-        />
+            <hr className={`line`} />
+            <h3 className={`club text-${isDarkMode ? 'light' : 'dark'} bg-${isDarkMode ? '#1b2735' : 'light'}`}>Clubs And Community</h3>
             <Club/>
         </div>
     );

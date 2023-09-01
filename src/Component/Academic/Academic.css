@@ -15,11 +15,11 @@
     margin: 65px;
 }
 
-.title {
-    font-size: 1.5em;
-    font-weight: 900;
+.title{
+    font-size: 1.5rem;
+    color:#0B3F66;
     text-align: center;
-    margin: 0;
+    margin: 0.5rem;
 }
 
 .innerCard {
@@ -51,7 +51,6 @@
     border-radius: 1rem;
     color: rgb(255, 255, 255);
     font-weight: 700;
-    background-color: #FF5733;
 }
 
 .frontSide,
@@ -95,4 +94,19 @@
     100% {
         opacity: 0.3;
     }
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+}
+
+span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#0B3F66;
+    text-align: center;
+    margin: 0.5rem;
 }
