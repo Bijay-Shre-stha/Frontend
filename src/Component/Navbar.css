@@ -1,6 +1,7 @@
 .navbar__logo {
     width: 85px;
 }
+
 .theme-switch {
     --toggle-size: 10px;
     /* the size is adjusted using font-size,
