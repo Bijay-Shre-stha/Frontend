@@ -6,6 +6,7 @@
     letter-spacing: 1px;
     border-radius: 5px;
     margin-top: 50px;
+   
 }
 
 .socialMedia {
@@ -13,6 +14,8 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 25px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
 }
 
 a {
@@ -25,4 +28,7 @@ a {
     padding: 20px;
     margin-top: 50px;
     text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+
 }

@@ -1,0 +1,188 @@
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background: #0D4C7F;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 1rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    height: auto;
+    background:#039c90 ;
+    color: #fff;
+}
+.item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 1rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    height: auto;
+    background:#084E36 ;
+    color: #fff;
+}
+.item3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 1rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    height: auto;
+    background:#323045 ;
+    color: #fff;
+}
+.item4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 1rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    height: auto;
+    background:#520B4D ;
+    color: #fff;
+}
+.item5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 1rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    height: auto;
+    background:#376187 ;
+    color: #fff;
+}
+.item6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 1rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    height: auto;
+    background:#AF5D23 ;
+    color: #fff;
+}
+.item7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 1rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    height: auto;
+    background:#FED20D ;
+    color: #fff;
+}
+.item8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 1rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    height: auto;
+    background:#049d0c ;
+    color: #fff;
+}
+.item9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 1rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    height: auto;
+    background:#db189a ;
+    color: #fff;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 1rem;
+}
+
+
+
+.clubLogo{
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    float: right;
+    position: relative;
+}
+
+p{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
+}

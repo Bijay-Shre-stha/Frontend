@@ -8,7 +8,9 @@ import Batch2022 from './Component/Batches/Batch2022';
 import Body from './Component/Body/Body';
 import Navbar from './Component/Navbar.js';
 import Footer from './Component/Footer/Footer';
+import Clubs from './Component/Clubs/Clubs';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Society from './Component/Society/Society';
 
 function App() {
   const [mode, setMode] = useState('light');
@@ -34,6 +36,10 @@ function App() {
           <Route exact path="/Batches/Batch2024" element={<Batch2024 />} />
           <Route exact path="/Batches/Batch2023" element={<Batch2023 />} />
           <Route exact path="/Batches/Batch2022" element={<Batch2022 />} />
+
+          <Route exact path="/Clubs" element={<Clubs mode={mode} toggleMode={toggleMode}/>} />
+          <Route exact path="/Society&Community" element={<Society />} />
+
         </Routes>
         <Footer mode={mode} toggleMode={toggleMode}/>
       </Router>

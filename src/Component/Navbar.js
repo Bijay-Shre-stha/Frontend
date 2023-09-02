@@ -2,8 +2,6 @@ import React from 'react';
 import './Navbar.css';
 import CSIT from './CSIT.js';
 import BCA from './BCA.js';
-import Club from './Club.js';
-import CommunityAndSociety from './CommunityAndSociety.js';
 
 const Navbar = (props) => {
     return (
@@ -20,8 +18,12 @@ const Navbar = (props) => {
                         </li>
                         <CSIT />
                         <BCA />
-                        <Club />
-                        <CommunityAndSociety />
+                        <li className="nav-item active">
+                            <a className="nav-link" href="/Clubs">Club</a>
+                        </li>
+                        <li className="nav-item active">
+                            <a className="nav-link" href="/Society&Community"> Community and Society</a>
+                        </li>
                     </ul>
                     <div className={`form-check form-switch text-${props.mode === 'light' ? 'dark' : 'light'} ms-auto px-2 py-1`}>
                         <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
