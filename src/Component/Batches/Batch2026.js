@@ -1,12 +1,15 @@
-import React from 'react'
-const Batch2026 = () => {
+import React from "react";
+import BatchContent from "../BatchContainer/BatchContent";
+
+const Batch2026 = (props) => {
+  const isDarkMode = props.mode === 'dark';
 
   return (
-    <div className={`Batch`} >
-        <h1>Batch of 2026</h1>
-        hello
+    <div>
+      <h1 className={`heading text-center mt-5 text-${isDarkMode ? "light" : "dark"}`}>B.Sc.CSITBatch of 2026</h1>
+      <BatchContent />
     </div>
-  )
-}
+  );
+};
 
-export default Batch2026
+export default Batch2026;

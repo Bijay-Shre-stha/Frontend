@@ -8,15 +8,15 @@ const BCA = (props) => {
                     Batch(BCA)
                 </a>
                 <ul className={`dropdown-menu`} aria-labelledby="navbarDropdown">
-                    <li><a className="dropdown-item" href="/">Batch of 2022</a></li>
+                    <li><a className="dropdown-item" href="/Batches/BCA2022">Batch of 2022</a></li>
                     <li><hr className="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="/">Batch of 2023</a></li>
+                    <li><a className="dropdown-item" href="/Batches/BCA2023">Batch of 2023</a></li>
                     <li><hr className="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="/">Batch of 2024</a></li>
+                    <li><a className="dropdown-item" href="/Batches/BCA2024">Batch of 2024</a></li>
                     <li><hr className="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="/">Batch of 2025</a></li>
+                    <li><a className="dropdown-item" href="/Batches/BCA2025">Batch of 2025</a></li>
                     <li><hr className="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="/">Batch of 2026</a></li>
+                    <li><a className="dropdown-item" href="/Batches/BCA2026">Batch of 2026</a></li>
                 </ul>
             </li>
         </div>

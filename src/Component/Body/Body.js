@@ -8,11 +8,6 @@ const Body = (props) => {
 
     return (
         <div className={`container mt-5 p-2 ${isDarkMode ? 'dark-mode' : ''}`}>
-            <section className='wrapper'>
-                <div className="stars"></div>
-                <div className="stars2"></div>
-                <div className="stars3"></div>
-            </section>
             <div className={`card text-${isDarkMode ? 'light' : 'dark'} bg-${isDarkMode ? 'dark' : 'light'} mb-3`}>
                 <div className={`card-body text-${isDarkMode ? 'light' : 'dark'} bg-${isDarkMode ? 'dark' : 'light'}`}>
                     <h2 className={`card-title text-${isDarkMode ? 'light' : 'dark'} bg-${isDarkMode ? 'dark' : 'light'}`}>What's DOKO?</h2>

@@ -1,0 +1,13 @@
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+}
+.body{
+    display: flex;
+}
+.hr__styled{
+    border: 3px black solid; 
+}
+

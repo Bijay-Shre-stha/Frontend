@@ -19,7 +19,7 @@ const Navbar = (props) => {
                         <CSIT />
                         <BCA />
                         <li className="nav-item active">
-                            <a className="nav-link" href="/Clubs">Club</a>
+                            <a className="nav-link" href="/Clubs">Clubs</a>
                         </li>
                         <li className="nav-item active">
                             <a className="nav-link" href="/Society&Community"> Community and Society</a>

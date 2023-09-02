@@ -1,15 +1,15 @@
 .Footer__container {
     padding: 25px;
     text-align: center;
-    font-size: 35px;
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 5px;
     margin-top: 50px;
-   
 }
 
 .socialMedia {
+    font-size: 35px;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,7 +24,6 @@ a {
 }
 
 .footer {
-    color: white;
     padding: 20px;
     margin-top: 50px;
     text-align: center;
