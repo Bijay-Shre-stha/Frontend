@@ -7,6 +7,7 @@ import Batch2023 from './Component/Batches/Batch2023';
 import Batch2022 from './Component/Batches/Batch2022';
 import Body from './Component/Body/Body';
 import Navbar from './Component/Navbar.js';
+import Footer from './Component/Footer/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route exact path="/Batches/Batch2023" element={<Batch2023 />} />
           <Route exact path="/Batches/Batch2022" element={<Batch2022 />} />
         </Routes>
+        <Footer mode={mode} toggleMode={toggleMode}/>
       </Router>
     </div>
   );

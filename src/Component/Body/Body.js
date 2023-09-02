@@ -37,6 +37,8 @@ const Body = (props) => {
             <hr className={`line`} />
             <h3 className={`club text-${isDarkMode ? 'light' : 'dark'} bg-${isDarkMode ? '#1b2735' : 'light'}`}>Clubs And Community</h3>
             <Club/>
+
+            <hr className={`line`} />
         </div>
     );
 };

@@ -1,0 +1,28 @@
+.Footer__container {
+    padding: 25px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer {
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
