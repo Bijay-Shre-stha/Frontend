@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Navbar/BCA.css'
 
 const BCA = (props) => {
     return (

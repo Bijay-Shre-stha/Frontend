@@ -20,7 +20,7 @@ import BCA2025 from './Component/BatchesBCA/BCA2025';
 import BCA2026 from './Component/BatchesBCA/BCA2026';
 
 import Body from './Component/Body/Body';
-import Navbar from './Component/Navbar.js';
+import Navbar from './Component/Navbar/Navbar';
 import Footer from './Component/Footer/Footer';
 import Clubs from './Component/Clubs/Clubs';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -76,7 +76,7 @@ function App() {
 
 
           <Route exact path="/Clubs" element={<Clubs mode={mode} toggleMode={toggleMode} />} />
-          <Route exact path="/Society&Community" element={<Society />} />
+          <Route exact path="/Society&Community" element={<Society mode={mode} toggleMode={toggleMode}/>} />
 
         </Routes>
         <Footer mode={mode} toggleMode={toggleMode} />

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import '../Navbar/Navbar.css';
 import CSIT from './CSIT.js';
 import BCA from './BCA.js';
 

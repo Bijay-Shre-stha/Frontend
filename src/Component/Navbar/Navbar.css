@@ -9,6 +9,14 @@
     width: 85px;
 }
 
+.dropdown-menu{
+    display: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
 .theme-switch {
     --toggle-size: 10px;
     /* the size is adjusted using font-size,

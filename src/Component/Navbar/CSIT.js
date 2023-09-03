@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './CSIT.css';
-
+import '../Navbar/CSIT.css'
 const CSIT = () => {
     return (
         <div>
@@ -9,7 +8,7 @@ const CSIT = () => {
                 <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Batch (Bsc.CSIT)
                 </Link>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul className={`dropdown-menu`} aria-labelledby="navbarDropdown">
                     <li><Link className="dropdown-item" to="/Batches/Batch2015">Batch of 2015</Link></li>
                     <li><hr className="dropdown-divider" /></li>
                     <li><Link className="dropdown-item" to="/Batches/Batch2016">Batch of 2016</Link></li>
