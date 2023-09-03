@@ -22,7 +22,10 @@ const Navbar = (props) => {
                             <a className="nav-link" href="/Clubs">Clubs</a>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link" href="/Society&Community"> Community and Society</a>
+                            <a className="nav-link" href="/Society&Community"> Community & Society</a>
+                        </li>
+                        <li className="nav-item active">
+                            <a className="nav-link" href="/gallery"> Gallery</a>
                         </li>
                     </ul>
                     <div className={`form-check form-switch text-${props.mode === 'light' ? 'dark' : 'light'} ms-auto px-2 py-1`}>

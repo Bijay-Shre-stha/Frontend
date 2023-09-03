@@ -28,6 +28,7 @@
     height: auto;
     background:#4CAAE8 ;
     color: #fff;
+    cursor: pointer;
 }
 
 
@@ -46,4 +47,5 @@
     height: auto;
     background:#2E3192 ;
     color: #fff;
+    cursor: pointer;
 }

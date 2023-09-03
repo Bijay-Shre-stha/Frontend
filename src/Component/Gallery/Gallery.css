@@ -1,0 +1,28 @@
+/* Gallery.css */
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+}
+
+.item {
+  flex: 0 0 calc(50% - 20px); 
+  max-width: calc(50% - 20px);
+  position: relative;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.gallery__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px; 
+  transition: transform 0.3s ease; 
+}
+
+.item:hover .gallery__image {
+  transform: scale(0.9); 
+}

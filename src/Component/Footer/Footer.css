@@ -5,6 +5,7 @@
     letter-spacing: 1px;
     border-radius: 5px;
     margin-top: 50px;
+    overflow: hidden;
 }
 
 .socialMedia {
@@ -14,14 +15,9 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 25px;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-    border-radius: 0.5rem;
 }
 
-a {
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-}
+
 
 .footer {
     padding: 20px;

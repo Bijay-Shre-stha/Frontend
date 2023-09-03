@@ -22,7 +22,7 @@ const Club = () => {
                 <div className="myCard mt-5">
                     <div className="innerCard m-3">
                         <div className="frontSide m-3">
-                            <p className="title">Total Communities</p>
+                            <p className="title">Total Community</p>
                             <span>2</span>
                         </div>
                         <div className="backSide">

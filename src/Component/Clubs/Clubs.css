@@ -12,6 +12,19 @@
     border-radius: 10px;
     width: 100%;
 }
+.clubSocialMedia{
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+}
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
 
 .item1 {
     display: flex;
@@ -28,6 +41,7 @@
     height: auto;
     background:#039c90 ;
     color: #fff;
+    cursor: pointer;
 }
 .item2 {
     display: flex;
@@ -44,6 +58,7 @@
     height: auto;
     background:#084E36 ;
     color: #fff;
+    cursor: pointer;
 }
 .item3 {
     display: flex;
@@ -60,6 +75,7 @@
     height: auto;
     background:#323045 ;
     color: #fff;
+    cursor: pointer;
 }
 .item4 {
     display: flex;
@@ -76,6 +92,7 @@
     height: auto;
     background:#520B4D ;
     color: #fff;
+    cursor: pointer;
 }
 .item5 {
     display: flex;
@@ -92,6 +109,7 @@
     height: auto;
     background:#376187 ;
     color: #fff;
+    cursor: pointer;
 }
 .item6 {
     display: flex;
@@ -108,6 +126,7 @@
     height: auto;
     background:#AF5D23 ;
     color: #fff;
+    cursor: pointer;
 }
 .item7 {
     display: flex;
@@ -124,6 +143,7 @@
     height: auto;
     background:#FED20D ;
     color: #fff;
+    cursor: pointer;
 }
 .item8 {
     display: flex;
@@ -140,6 +160,7 @@
     height: auto;
     background:#049d0c ;
     color: #fff;
+    cursor: pointer;
 }
 .item9 {
     display: flex;
@@ -156,6 +177,7 @@
     height: auto;
     background:#db189a ;
     color: #fff;
+    cursor: pointer;
 }
 
 

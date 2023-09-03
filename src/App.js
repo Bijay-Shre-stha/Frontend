@@ -25,6 +25,7 @@ import Footer from './Component/Footer/Footer';
 import Clubs from './Component/Clubs/Clubs';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Society from './Component/Society/Society';
+import Gallery from './Component/Gallery/Gallery';
 
 function App() {
   const [mode, setMode] = useState('light');
@@ -70,14 +71,9 @@ function App() {
           <Route exact path="/Batches/BCA2025" element={<BCA2025 mode={mode} toggleMode={toggleMode}/>} />
           <Route exact path="/Batches/BCA2026" element={<BCA2026 mode={mode} toggleMode={toggleMode}/>} />
 
-          
-
-
-
-
           <Route exact path="/Clubs" element={<Clubs mode={mode} toggleMode={toggleMode} />} />
           <Route exact path="/Society&Community" element={<Society mode={mode} toggleMode={toggleMode}/>} />
-
+          <Route exact path="/gallery" element={<Gallery mode={mode} toggleMode={toggleMode}/>}/>
         </Routes>
         <Footer mode={mode} toggleMode={toggleMode} />
       </Router>
