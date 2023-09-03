@@ -1,7 +1,46 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import '../Navbar/CSIT.css'
 const CSIT = () => {
+    let location = useLocation();
+    useEffect(()=>{
+        if(location.pathname === '/Batches/Batch2015'){
+            document.title = 'Doko | Batch 2015'
+        }
+        else if(location.pathname === '/Batches/Batch2016'){
+            document.title = 'Doko | Batch 2016'
+        }
+        else if(location.pathname === '/Batches/Batch2017'){
+            document.title = 'Doko | Batch 2017'
+        }
+        else if(location.pathname === '/Batches/Batch2018'){
+            document.title = 'Doko | Batch 2018'
+        }
+        else if(location.pathname === '/Batches/Batch2019'){
+            document.title = 'Doko | Batch 2019'
+        }
+        else if(location.pathname === '/Batches/Batch2020'){
+            document.title = 'Doko | Batch 2020'
+        }
+        else if(location.pathname === '/Batches/Batch2021'){
+            document.title = 'Doko | Batch 2021'
+        }
+        else if(location.pathname === '/Batches/Batch2022'){
+            document.title = 'Doko | Batch 2022'
+        }
+        else if(location.pathname === '/Batches/Batch2023'){
+            document.title = 'Doko | Batch 2023'
+        }
+        else if(location.pathname === '/Batches/Batch2024'){
+            document.title = 'Doko | Batch 2024'
+        }
+        else if(location.pathname === '/Batches/Batch2025'){
+            document.title = 'Doko | Batch 2025'
+        }
+        else if(location.pathname === '/Batches/Batch2026'){
+            document.title = 'Doko | Batch 2026'
+        }
+    })
     return (
         <div>
             <li className="nav-item dropdown">

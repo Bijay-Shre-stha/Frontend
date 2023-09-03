@@ -1,31 +1,47 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../Navbar/Navbar.css';
 import CSIT from './CSIT.js';
 import BCA from './BCA.js';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = (props) => {
+    let location = useLocation();
+    useEffect(()=>{
+        if(location.pathname === '/'){
+            document.title = 'Doko | Home'
+        }
+        else if(location.pathname === '/Clubs'){
+            document.title = 'Doko | Clubs'
+        }
+        else if(location.pathname === '/Society&Community'){
+            document.title = 'Doko | Society & Community'
+        }
+        else if(location.pathname === '/gallery'){
+            document.title = 'Doko | Gallery'
+        }
+    })
     return (
         <nav className={`navbar navbar-expand-lg navbar-${props.mode === 'light' ? 'light' : 'dark'} bg-${props.mode}`}>
             <div className="container">
-                <a href="/" className="navbar-brand"><img className='navbar__logo' src="https://doko.dwit.edu.np/assets/images/doko_logo.png" alt="" /></a>
+                <Link to="/" className="navbar-brand"><img className='navbar__logo' src="https://doko.dwit.edu.np/assets/images/doko_logo.png" alt="" /></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="/">Home</a>
+                            <Link className={`nav-link ${location.pathname === "/" ? "active" : ""}`}to="/">Home</Link>
                         </li>
-                        <CSIT />
+                        <CSIT/>
                         <BCA />
                         <li className="nav-item active">
-                            <a className="nav-link" href="/Clubs">Clubs</a>
+                            <Link className={`nav-link ${location.pathname === '/Clubs' ? "active": ""}`}to="/Clubs">Clubs</Link>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link" href="/Society&Community"> Community & Society</a>
+                            <Link className={`nav-link ${location.pathname === '/Society&Community' ? "active": ""}`} to="/Society&Community"> Community & Society</Link>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link" href="/gallery"> Gallery</a>
+                            <Link className={`nav-link ${location.pathname === '/gallery' ? "active": ""}`} to="/gallery"> Gallery</Link>
                         </li>
                     </ul>
                     <div className={`form-check form-switch text-${props.mode === 'light' ? 'dark' : 'light'} ms-auto px-2 py-1`}>
