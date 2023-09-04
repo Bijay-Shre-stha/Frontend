@@ -1,6 +1,6 @@
 import React from "react";
+import BatchBody from "../BatchContainer/BatchBody";
 import BatchContent from "../BatchContainer/BatchContent";
-
 const Batch2024 = (props) => {
   const isDarkMode = props.mode === 'dark';
 
@@ -8,7 +8,15 @@ const Batch2024 = (props) => {
     <div>
       <h1 className={`heading text-center mt-5 text-${isDarkMode ? "light" : "dark"}`}>B.Sc.CSIT Batch of 2024</h1>
       <BatchContent />
-    </div>
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />    </div>
   );
 };
 

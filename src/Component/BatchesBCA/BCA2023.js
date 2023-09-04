@@ -1,13 +1,22 @@
-import React from 'react'
-import BatchContent from '../BatchContainer/BatchContent'
-
+import React from 'react';
+import BatchBody from '../BatchContainer/BatchBody';
+import BatchContent from '../BatchContainer/BatchContent';
 const BCA2023 = (props) => {
-    const isDarkMode = props.mode === 'dark';
+  const isDarkMode = props.mode === 'dark';
 
   return (
     <div>
-       <h1 className={`heading text-center mt-5 text-${isDarkMode ? "light" : "dark"}`}>BCA Batch of 2023</h1>
+      <h1 className={`heading text-center mt-5 text-${isDarkMode ? "light" : "dark"}`}>BCA Batch of 2023</h1>
       <BatchContent />
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />
+      <BatchBody />
     </div>
   )
 }
