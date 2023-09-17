@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Frontend/static/css/main.716895aa.css",
-    "main.js": "/Frontend/static/js/main.c6dcfeac.js",
-    "static/js/787.d4568539.chunk.js": "/Frontend/static/js/787.d4568539.chunk.js",
-    "static/media/media.jpg": "/Frontend/static/media/media.9e52de492073c53310dc.jpg",
-    "static/media/sport.jpg": "/Frontend/static/media/sport.77a982b31234000edbfb.jpg",
-    "static/media/lit.jpg": "/Frontend/static/media/lit.b9e7ce0ebe009253b64a.jpg",
-    "static/media/social.jpg": "/Frontend/static/media/social.82f7082d18e9e7070044.jpg",
-    "static/media/developer.jpg": "/Frontend/static/media/developer.370c7fea3cad4adc6fa6.jpg",
-    "static/media/music.jpg": "/Frontend/static/media/music.f9ca7701e11dd7f0e2cf.jpg",
-    "static/media/art.jpg": "/Frontend/static/media/art.fb40bba549f9dfc1cebd.jpg",
-    "static/media/hiking.jpg": "/Frontend/static/media/hiking.c2c6eb9e96152e5f9c48.jpg",
-    "static/media/data.jpg": "/Frontend/static/media/data.9e857d1583cefbc27a4e.jpg",
-    "static/media/express.jpg": "/Frontend/static/media/express.824bb7e0c78176dcfa8d.jpg",
-    "static/media/software.jpg": "/Frontend/static/media/software.f865adc9b9c82717d008.jpg",
-    "index.html": "/Frontend/index.html",
-    "main.716895aa.css.map": "/Frontend/static/css/main.716895aa.css.map",
-    "main.c6dcfeac.js.map": "/Frontend/static/js/main.c6dcfeac.js.map",
-    "787.d4568539.chunk.js.map": "/Frontend/static/js/787.d4568539.chunk.js.map"
+    "main.css": "/static/css/main.5a20d4bf.css",
+    "main.js": "/static/js/main.b81bd452.js",
+    "static/js/787.d4568539.chunk.js": "/static/js/787.d4568539.chunk.js",
+    "static/media/media.jpg": "/static/media/media.9e52de492073c53310dc.jpg",
+    "static/media/sport.jpg": "/static/media/sport.77a982b31234000edbfb.jpg",
+    "static/media/lit.jpg": "/static/media/lit.b9e7ce0ebe009253b64a.jpg",
+    "static/media/social.jpg": "/static/media/social.82f7082d18e9e7070044.jpg",
+    "static/media/developer.jpg": "/static/media/developer.370c7fea3cad4adc6fa6.jpg",
+    "static/media/music.jpg": "/static/media/music.f9ca7701e11dd7f0e2cf.jpg",
+    "static/media/art.jpg": "/static/media/art.fb40bba549f9dfc1cebd.jpg",
+    "static/media/hiking.jpg": "/static/media/hiking.c2c6eb9e96152e5f9c48.jpg",
+    "static/media/data.jpg": "/static/media/data.9e857d1583cefbc27a4e.jpg",
+    "static/media/express.jpg": "/static/media/express.824bb7e0c78176dcfa8d.jpg",
+    "static/media/software.jpg": "/static/media/software.f865adc9b9c82717d008.jpg",
+    "index.html": "/index.html",
+    "main.5a20d4bf.css.map": "/static/css/main.5a20d4bf.css.map",
+    "main.b81bd452.js.map": "/static/js/main.b81bd452.js.map",
+    "787.d4568539.chunk.js.map": "/static/js/787.d4568539.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.716895aa.css",
-    "static/js/main.c6dcfeac.js"
+    "static/css/main.5a20d4bf.css",
+    "static/js/main.b81bd452.js"
   ]
 }
